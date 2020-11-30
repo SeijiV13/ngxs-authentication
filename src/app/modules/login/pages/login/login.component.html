@@ -1,0 +1,16 @@
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+
+<form [formGroup]="form">
+<div class="box">
+<h1>User Login</h1>
+
+<input  formControlName="username"  class="email" />
+
+<input type="password"  formControlName="password" class="email" />
+
+<a (click)="login"><div class="btn">Sign In</div></a> <!-- End Btn -->
+
+
+</div> <!-- End Box -->
+
+</form>
